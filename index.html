@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Food uncovered
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="scripst.js"></script>
+    </head>
+    <body>
+        <div class="container1">
+            <div class="logo">
+                <div class="smallr">
+                    <img src="images/logo.png">
+                </div>
+                <div class="bigr">
+                    <p>Food Uncovered</p>
+                    <img src="images/logo2.png">
+                </div>
+            </div>
+
+            <div class="head">
+                <h1 class="main">Food uncovered</h1>
+                <p class="sub">Eat healthy <img src="images/avacado.png"> Be healthy</p>
+            </div>
+
+            <div class="search">
+                <div class="enter">
+                    <p>Enter your restaurant name </p>
+                </div>
+                <img src="images/point.png">
+                <div class="name">
+                    <input type="text" value="" placeholder="Search" id="namein">
+                    
+                </div>
+                
+            </div>
+            <button class="start" onclick="display()">Search<img src="images/search.png"></button>
+            <div class="note">
+                <p>Your feedback is valuable to us.<br>Help us to improve by answering a few questions.</p>
+                <img src="images/tick.png">
+            </div>
+
+            <div class="display" >
+                <p id="displaying"></p>
+            </div>
+
+
+        </div>
+
+        <div class="container2" id="con2">
+            <div class="cats">
+                <p>Feedback for</p>
+                <nav>
+                    <ul>
+                        <li onclick="food()">FOOD</li>
+                        <li onclick="clean()">CLEANINESS</li>
+                        <li onclick="staff()">STAFF BEHAVIOUR</li>
+                        <li onclick="price()">PRICING</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="food" id="eat">
+                <div class="vege">
+                    <p>Vegetables</p>
+                    <input type="radio" id="good" name="foods" value="Good quality" required>
+                    <label for="good">Good quality</label>
+                    <input type="radio" id="bad" name="foods" value="Bad quality">
+                    <label for="bad">Bad quality</label>
+                </div>
+                <div class="bread">
+                    <p>Breads</p>
+                    <input type="radio" id="well" name="breadd" value="Well cooked" required>
+                    <label for="well">Well cooked</label>
+                    <input type="radio" id="un" name="breadd" value="Uncooked">
+                    <label for="un">Uncooked</label>
+                </div>
+                <div class="rice">
+                    <p>Rice</p>
+                    <input type="radio" id="well" name="ricee" value="Well cooked" required>
+                    <label for="well">Well cooked</label>
+                    <input type="radio" id="un" name="ricee" value="Uncooked">
+                    <label for="un">Uncooked</label>
+                </div>
+            </div>
+
+            <div class="cleaniness" id="clea">
+                <div class="table">
+                    <p>Table</p>
+                    <input type="radio" id="clean" name="cleaning" value="Clean" required>
+                    <label for="clean">Clean</label>
+                    <input type="radio" id="not" name="cleaning" value="Not clean">
+                    <label for="not">Not clean</label>
+                </div>
+                <div class="cutlery">
+                    <p>Cutlery</p>
+                    <input type="radio" id="clean" name="cleanings" value="Clean" required>
+                    <label for="clean">Clean</label>
+                    <input type="radio" id="not" name="cleanings" value="Not clean">
+                    <label for="not">Not clean</label>
+                </div>
+                <div class="Dining-area">
+                    <p>Dining area</p>
+                    <input type="radio" id="clean" name="cleaned" value="Clean" required>
+                    <label for="clean">Clean</label>
+                    <input type="radio" id="not" name="cleaned" value="Not clean">
+                    <label for="not">Not clean</label>
+                </div>
+            </div>
+
+            <div class="behave" id="sta">
+                <div class="time">
+                    <p>Was your order served at time ?</p>
+                    <input type="radio" id="yess" name="time" value="Yes" required>
+                    <label for="clean">Yes</label>
+                    <input type="radio" id="no" name="time" value="No">
+                    <label for="not">No</label>
+                </div>
+                <div class="cutlery">
+                    <p>Was your order served properly ?</p>
+                    <input type="radio" id="yess" name="timee" value="Yes" required>
+                    <label for="clean">Yes</label>
+                    <input type="radio" id="no" name="timee" value="No">
+                    <label for="not">No</label>
+                </div>
+            </div>
+
+            <div class="price" id="pri">
+                <div class="prices">
+                    <p>Pricing of the menu was ?</p>
+                    <input type="radio" id="yess" name="timed" value="Yes" required>
+                    <label for="clean">Appropriate</label>
+                    <input type="radio" id="no" name="timed" value="No">
+                    <label for="not">Unappropriate</label>
+                </div>
+            </div>
+
+            <button id="take" onclick="foods()"><img src="images/submit.png"><p>Submit</p></button>
+        </div>
+
+        <div class="container3" id="con3">
+            <div class="final">
+                <p id="this">This is what we've got<br>from you</p>
+                <div class="one">
+                    <p id="vin"></p>
+                    <p id="bin"></p>
+                    <p id="rin"></p>
+                </div>
+                <div class="two">
+                    <p id="tin"></p>
+                    <p id="cin"></p>
+                    <p id="din"></p>
+                </div>
+                <div class="three">
+                    <p id="fin"></p>
+                    <p id="pin"></p>
+                    </div>
+                <div class="four">
+                    <p id="ain"></p>
+                </div>
+            </div>
+            <p id="thanks">Your feedback has been submitted<br>and sent to Indian Govt. Food Association.<img src="images/tick.png"></p>
+            <p id="last">Thanks for your time !</p>
+        </div>
+    </body>
+</html>

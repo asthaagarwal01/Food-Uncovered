@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1
+{
+    background-color: #FFD9C3;
+    width: 100%;
+    padding: 30px;
+    height: 98vh;
+}
+
+.logo
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo .smallr
+{
+    width: 53px;
+    height: 53px;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.15);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(9px);
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -6px;
+    position: absolute;
+}
+
+.smallr img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.logo .bigr
+{
+    width: 205px;
+    height: 40px;
+    display: flex;
+    background: linear-gradient(272.69deg, #442411 5.14%, #A12F16 96.98%);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 50px;
+    
+}
+
+.logo .bigr p
+{
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-left: 23px;
+}
+
+.bigr img
+{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+
+.head
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .main 
+{
+    color: black;
+    font-size: 70px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: -4px;
+    line-height: 150px;
+}
+
+.head .sub
+{
+    color: black;
+    font-size: 28px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.head .sub img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.search
+{
+    display: flex;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background: #FFC73F;
+    border: 2px solid #D0A28C;
+    width:fit-content;
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.enter p
+{
+    font-size: 20px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: #473407;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.search  img
+{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    
+}
+
+.name
+{
+    border-radius: 20px;
+    padding: 10px 6px;
+    background: #FFFDE9;
+    border: 2px solid #D0A28C;
+    box-shadow: 22px -2px 99px #DAAD40;
+    margin-left: 10px;
+    
+}
+
+.name ::placeholder
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(125, 107, 10, 0.5);
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.name input
+{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.start
+{
+    background: #FFFDE9;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(125, 107, 10, 0.5);
+    display: flex;
+    text-align: center;
+    padding-left: 12px;
+    margin-top: 30px;
+    box-shadow: 22px -2px 99px #DAAD40;
+    border: 1.5px solid #D0A28C;
+    transition:  .3s ease;
+}
+
+.start:hover
+{
+    transform: scale(1.1);
+    color: #473407;
+    border: #473407;
+}
+
+.start img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.note
+{
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note p
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.note img
+{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.display
+{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.display p
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #473407;
+}
+
+.container2
+{
+    background-color: #2F3D0A;
+    width: 100%;
+    padding: 50px 80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+.container2 .cats
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background: #8E680C;
+    border: 2px solid #342B16;
+    box-shadow: 13px 72px 137px rgba(176, 109, 88, 0.15);
+    backdrop-filter: blur(15.5px);
+    border-radius: 30px;
+    width: 55%;
+    margin: auto;
+}
+
+.cats p
+{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.cats nav ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cats nav ul li
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 20px 30px;
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.cats nav ul li:hover
+{
+    color:#342B16;
+}
+
+.food , .cleaniness ,.behave ,.price
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    background: rgba(217, 217, 217, 0.15);
+    border: 2px solid #FFFFFF;
+    box-shadow: 16px 22px 87px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: none;
+    animation-duration: 3s;
+  animation-name: slideme;
+}
+
+
+
+@keyframes slideme{
+    0%{
+        transform: skewX(0deg) translateX(-550px);
+    }
+
+    100%{
+        transform: skewX(0deg);
+    }
+}
+
+.food p ,.cleaniness p ,.behave p ,.price p
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #ffffff;
+    padding: 15px;
+
+}
+
+.food input, .cleaniness input ,.behave input ,.price input
+{
+    margin-left: 5px;
+}
+
+.food label , .cleaniness label ,.behave label ,.price label
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.52);
+    padding-left: 5px;
+    
+}
+
+.vege,.bread,.rice ,.table ,.cutlery ,.dining-area,.time ,.order,.prices
+{
+    margin-bottom: 10px;
+}
+
+button
+{
+    background: #F9D57E;
+    border-radius: 17px;
+    padding: 5px 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #442411;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    display: none;
+}
+
+.button p
+{
+    padding-top: 10px;
+}
+
+button img
+{
+    width: 35px;
+    height: 35px;
+   padding: 5px;
+
+}
+
+.container3
+{
+    background-color: #FFD9C3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.final
+{
+    margin: auto;
+    width: fit-content;
+    padding: 30px;
+    background-color: #FFFDE9;
+    border-radius: 20px;
+}
+
+#this
+{
+    font-size: 23px;
+    color:#442411;
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.one,.two,.three,.four
+{
+    text-align: center;
+    font-size: 22px;
+    color: rgba(71, 52, 7, 0.56);
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#thanks
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 60px;
+}
+
+#thanks img
+{
+    width: 29px;
+    height: 29px;
+    margin-left: 5px;
+}
+
+#last
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
